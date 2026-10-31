@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>medical request document </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var leaveType = g_form.getValue('leave_type'); // Replace with your exact field name
+    var startDateStr = g_form.getValue('start_date');
+    var endDateStr = g_form.getValue('end_date');
+
+    // Proceed only if all fields have values and it is Sick Leave
+    if (leaveType === 'sick' && startDateStr !== '' && endDateStr !== '') {
+        
+        var startMs = getDateFromFormat(startDateStr, g_user_date_format);
+        var endMs = getDateFromFormat(endDateStr, g_user_date_format);
+        
+        var diffInMs = endMs - startMs;
+        var diffInDays = Math.round(diffInMs / (1000 * 60 * 60 * 24)) + 1;
+
+        if (diffInDays > 2) {
+            
+            // Check if the specific attachment field/variable is empty
+            var attachmentProvided = g_form.getValue('document_attachment');
+
+            if (!attachmentProvided || attachmentProvided === 'false') {
+                // Display error at the top of the form
+                g_form.addErrorMessage('A medical certificate is required for Sick Leave exceeding 2 days. Please upload it before submitting.');
+                
+                // Returning false aborts the form submission
+                return false; 
+            }
+        }
+    }
+    
+    // Allow submission if conditions are met or it's not a >2 day sick leave
+    return true; 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 07:06:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5cf9f1cd9394931005dff7dddd03d618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>medical request document </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request Management" source="x_2250616_leave_0">88b5e57c9394131005dff7dddd03d620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">88b5e57c9394131005dff7dddd03d620</sys_scope>
+        <sys_update_name>sys_script_client_5cf9f1cd9394931005dff7dddd03d618</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 07:06:31</sys_updated_on>
+        <table>x_2250616_leave_0_leave_request</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="efa49e019398931005dff7dddd03d621" label="Employee Leave Balance" max_length="40" name="x_2250616_leave_0_employee_leave_balance" type="collection">
+        <element default="15" label="Annual Balance" max_length="40" name="annual_balance" type="integer"/>
+        <element default="2026" label="Year" max_length="40" name="year" type="string"/>
+        <element label="Exceeded Any Balance" max_length="40" name="exceeded_any_balance" type="boolean"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element default="10" label="Sick Balance" max_length="40" name="sick_balance" type="integer"/>
+        <element default="15" label="Paternity Balance" max_length="40" name="paternity_balance" type="integer"/>
+        <element default="12" label="Casual Balance" max_length="40" name="casual_balance" type="integer"/>
+        <element default="5" label="Emergency Balance" max_length="40" name="emergency_balance" type="integer"/>
+        <element default="180" label="Maternity Balance" max_length="40" name="maternity_balance" type="integer"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
