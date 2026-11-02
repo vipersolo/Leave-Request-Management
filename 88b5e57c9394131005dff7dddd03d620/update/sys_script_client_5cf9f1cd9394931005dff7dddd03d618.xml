@@ -12,6 +12,7 @@
         <order/>
         <script><![CDATA[function onSubmit() {
     var leaveType = g_form.getValue('leave_type'); // Replace with your exact field name
+    var balance = parseInt(g_form.getValue('leave_balance_at_request'), 10);
     var startDateStr = g_form.getValue('start_date');
     var endDateStr = g_form.getValue('end_date');
 
@@ -36,6 +37,14 @@
                 // Returning false aborts the form submission
                 return false; 
             }
+
+        }
+    }
+
+	if (!isNaN(balance) && diffInDays > balance) {
+        var proceed = confirm('Warning: You are requesting ' + days + ' days, but your current balance is only ' + balance + ' days. Do you wish to proceed and submit this request?');
+        if (!proceed) {
+            return false; 
         }
     }
     
@@ -48,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5cf9f1cd9394931005dff7dddd03d618</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>medical request document </sys_name>
         <sys_overrides/>
         <sys_package display_value="Leave Request Management" source="x_2250616_leave_0">88b5e57c9394131005dff7dddd03d620</sys_package>
@@ -56,7 +65,7 @@
         <sys_scope display_value="Leave Request Management">88b5e57c9394131005dff7dddd03d620</sys_scope>
         <sys_update_name>sys_script_client_5cf9f1cd9394931005dff7dddd03d618</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-31 07:06:31</sys_updated_on>
+        <sys_updated_on>2026-11-01 07:21:58</sys_updated_on>
         <table>x_2250616_leave_0_leave_request</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
