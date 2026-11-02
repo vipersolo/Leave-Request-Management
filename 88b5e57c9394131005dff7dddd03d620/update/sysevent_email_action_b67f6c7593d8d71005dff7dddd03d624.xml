@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_2250616_leave_0_leave_request</collection>
+        <condition table="x_2250616_leave_0_leave_request">statusCHANGESTOmanager_review^EQ<item display_value="Manager Review" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="manager_review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&lt;p&gt;A new Leave Request requires your approval.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Employee:&lt;/strong&gt; ${employee}&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Leave Type:&lt;/strong&gt; ${leave_type}&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Dates:&lt;/strong&gt; ${start_date} to ${end_date} (${leave_days} days)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Reason:&lt;/strong&gt; ${reason }&lt;/p&gt; &lt;p&gt;Click here to view and approve/reject the request: ${URI_REF}&lt;/p&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Leave Request - Notify Manager</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>employee.manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${emergency_leave}Leave Request from ${employee} (${number})</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-02 09:38:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b67f6c7593d8d71005dff7dddd03d624</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Leave Request - Notify Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request Management" source="x_2250616_leave_0">88b5e57c9394131005dff7dddd03d620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">88b5e57c9394131005dff7dddd03d620</sys_scope>
+        <sys_update_name>sysevent_email_action_b67f6c7593d8d71005dff7dddd03d624</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-02 11:01:49</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
