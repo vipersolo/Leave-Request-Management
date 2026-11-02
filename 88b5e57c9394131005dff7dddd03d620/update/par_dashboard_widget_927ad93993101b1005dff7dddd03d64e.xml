@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">d558193593101b1005dff7dddd03d694</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"30.0.14","scoreSize":"auto","scoreAlignment":"start","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"wrapElements":false,"colorConfig":{"type":"default"},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Leave Request","sourceType":"table","tableOrViewName":"x_2250616_leave_0_leave_request","filterQuery":"is_emergency_leave=true^start_dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzIyNTA2MTZfbGVhdmVfMF9sZWF2ZV9yZXF1ZXN0MTc5MzYyMzM2NTA5Ng==","dataCategories":["trend","group","simple"]}],"showHeader":true,"supportsTableView":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Emergency Leaves in the Current Month","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGV4XzIyNTA2MTZfbGVhdmVfMF9sZWF2ZV9yZXF1ZXN0MTc5MzYyMzM2NTA5Ng==","id":"b2105ed2-6429-4615-8055-aacab05dfb1d","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"9cc33dfb62964","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"periodOverPeriod":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"showExtendedErrorMessages":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","colors":{}}</component_props>
+        <h>12</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Leave Request","code":"PAR_DASHBOARD.d558193593101b1005dff7dddd03d694.927ad93993101b1005dff7dddd03d64e"},{"comment":"","message":"Emergency Leaves in the Current Month","code":"PAR_DASHBOARD.d558193593101b1005dff7dddd03d694.927ad93993101b1005dff7dddd03d64e"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.d558193593101b1005dff7dddd03d694.927ad93993101b1005dff7dddd03d64e"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.d558193593101b1005dff7dddd03d694.927ad93993101b1005dff7dddd03d64e"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-02 12:43:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>927ad93993101b1005dff7dddd03d64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request Management" source="x_2250616_leave_0">88b5e57c9394131005dff7dddd03d620</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">88b5e57c9394131005dff7dddd03d620</sys_scope>
+        <sys_update_name>par_dashboard_widget_927ad93993101b1005dff7dddd03d64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-02 12:43:48</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <widget_props>{"filterPerMetric":[],"refreshFrequency":null,"headerTitle":"Emergency Leaves in the Current Month"}</widget_props>
+        <x>24</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
