@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>40aa390193d4931005dff7dddd03d60f</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>049781ca93d85b1005dff7dddd03d6c0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>employee</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>08aa390193d4931005dff7dddd03d610</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>4c9781ca93d85b1005dff7dddd03d6c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>employee.email</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>84aa390193d4931005dff7dddd03d611</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c89781ca93d85b1005dff7dddd03d6c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>employee.department</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>04aa390193d4931005dff7dddd03d612</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>489781ca93d85b1005dff7dddd03d6c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>employee.manager</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>80aa390193d4931005dff7dddd03d613</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c49781ca93d85b1005dff7dddd03d6c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,223 +74,209 @@
             <element>is_emergency_leave</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>00aa390193d4931005dff7dddd03d614</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>449781ca93d85b1005dff7dddd03d6c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>document_attachment</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>8caa390193d4931005dff7dddd03d614</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>start_date</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>0caa390193d4931005dff7dddd03d615</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c09781ca93d85b1005dff7dddd03d6c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_date</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>88aa390193d4931005dff7dddd03d616</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>409781ca93d85b1005dff7dddd03d6c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number_of_leave_days</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>08aa390193d4931005dff7dddd03d617</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>cc9781ca93d85b1005dff7dddd03d6c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>84aa390193d4931005dff7dddd03d618</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>4c9781ca93d85b1005dff7dddd03d6c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contact_number</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>04aa390193d4931005dff7dddd03d619</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c89781ca93d85b1005dff7dddd03d6c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>80aa390193d4931005dff7dddd03d61a</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>489781ca93d85b1005dff7dddd03d6ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hr_remarks</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>00aa390193d4931005dff7dddd03d61b</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c49781ca93d85b1005dff7dddd03d6cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hr_reviewer</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>8caa390193d4931005dff7dddd03d61b</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>449781ca93d85b1005dff7dddd03d6cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leave_balance_at_request</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>0caa390193d4931005dff7dddd03d61c</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c09781ca93d85b1005dff7dddd03d6cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>manager_comments</element>
-            <position>16</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>88aa390193d4931005dff7dddd03d61d</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>409781ca93d85b1005dff7dddd03d6ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>leave_type</element>
-            <position>17</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>08aa390193d4931005dff7dddd03d61e</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>cc9781ca93d85b1005dff7dddd03d6ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason</element>
-            <position>18</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>84aa390193d4931005dff7dddd03d61f</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>4c9781ca93d85b1005dff7dddd03d6cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>created_on</element>
-            <position>19</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>04aa390193d4931005dff7dddd03d620</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>c89781ca93d85b1005dff7dddd03d6d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>updated_on</element>
-            <position>20</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-10-31 07:08:50</sys_created_on>
-            <sys_id>80aa390193d4931005dff7dddd03d621</sys_id>
+            <sys_created_on>2026-11-03 05:59:39</sys_created_on>
+            <sys_id>489781ca93d85b1005dff7dddd03d6d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_2250616_leave_0_leave_request" sys_domain="global" view="Default view">035482b49398131005dff7dddd03d6cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-10-31 07:08:50</sys_updated_on>
+            <sys_updated_on>2026-11-03 05:59:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

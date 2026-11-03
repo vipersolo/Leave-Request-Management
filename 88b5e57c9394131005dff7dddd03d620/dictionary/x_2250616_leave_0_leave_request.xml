@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
             </choice>
         </element>
-        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Employee" max_length="32" name="employee" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="HR Reviewer" max_length="32" name="hr_reviewer" reference="sys_user" type="reference"/>
         <element label="Document Attachment" max_length="40" name="document_attachment" type="file_attachment"/>
         <element label="Manager Comments" max_length="40" name="manager_comments" type="string"/>
